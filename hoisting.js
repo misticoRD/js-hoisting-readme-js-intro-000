@@ -15,7 +15,7 @@ function crazy() {
     var thisIsCrazy = function (){
     console.log("hey!!!")
   }
-  thisIsCrazy();
+  return thisIsCrazy();
 }
 
 function sayMyName() {
@@ -27,5 +27,5 @@ function sayMy() {
     console.log(name);
 
   }
-sayMy();
+return sayMy();
 }
